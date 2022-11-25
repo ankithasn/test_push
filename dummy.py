@@ -28,7 +28,7 @@ def gitPushToRepo(git_user_id, git_repo_id, COMMIT_MESSAGE, Github_token):
         else:
             o = repo.remotes.origin
         o.pull("main")
-        o.push()
+        o.push("main")
         # repo.git.push()
     except Exception as e:
         print('Some error occurred while pushing the code', e)
