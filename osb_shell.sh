@@ -27,12 +27,12 @@ git init
 
 # Adds the files in the local repository and stages them for commit.
 git add .
-
+git config --global user.email "sn.ankitha0003@gmail.com"
+git config --global user.name "ankithasn"
 # Commits the tracked changes and prepares them to be pushed to a remote repository.
 git commit -m "$release_note"
 
-git config --global user.email "sn.ankitha0003@gmail.com"
-git config --global user.name "ankithasn"
+
 
 GIT_TOKEN="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"
 # Sets the new remote
