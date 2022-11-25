@@ -35,7 +35,7 @@ echo "ste"
 
 
 
-GIT_TOKEN="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"
+GIT_TOKEN="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"
 # Sets the new remote
 git_remote=`git remote`
 echo "strat"

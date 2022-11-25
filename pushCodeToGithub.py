@@ -1,8 +1,8 @@
 import os
 from git import Repo
 
-git_user_id = "OSB-code-push"
-git_repo_id = "OSB-git"
+git_user_id = "OSB-code-newpush"
+git_repo_id = "OSB-newgit"
 COMMIT_MESSAGE = "initial code"
 Github_token = "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"
 
