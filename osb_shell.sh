@@ -40,6 +40,7 @@ GIT_TOKEN="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"
 git_remote=`git remote`
 echo $git_remote
 echo "strat"
+echo "git remote add origin https://github.com/${git_user_id}/${git_repo_id}.git"
 if [ "$git_remote" = "" ]; then # git remote not defined
     echo $GIT_TOKEN . "git token"
     if [ "$GIT_TOKEN" = "" ]; then
