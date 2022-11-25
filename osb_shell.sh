@@ -23,6 +23,7 @@ if [ "$release_note" = "" ]; then
 fi
 echo "started"
 # Initialize the local directory as a Git repository
+cd "/Users/ankitha/Documents/Baffle/repos/hackathon/javascript-client-generated_test"
 git init
 echo "stae"
 # Adds the files in the local repository and stages them for commit.
