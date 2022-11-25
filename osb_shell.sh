@@ -31,6 +31,7 @@ git add .
 #git config --global user.name "ankithasn"
 # Commits the tracked changes and prepares them to be pushed to a remote repository.
 git commit -m "$release_note"
+echo "ste"
 
 
 
