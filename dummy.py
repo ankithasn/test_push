@@ -3,7 +3,7 @@ from git import Repo
 
 
 git_user_id = "ankithasn"
-git_repo_id = "OSB-newgit"
+git_repo_id = "test_push"
 COMMIT_MESSAGE = "initial code"
 Github_token = "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"
 
