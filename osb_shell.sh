@@ -24,11 +24,11 @@ fi
 echo "started"
 # Initialize the local directory as a Git repository
 git init
-
+echo "stae"
 # Adds the files in the local repository and stages them for commit.
 git add .
-git config --global user.email "sn.ankitha0003@gmail.com"
-git config --global user.name "ankithasn"
+#git config --global user.email "sn.ankitha0003@gmail.com"
+#git config --global user.name "ankithasn"
 # Commits the tracked changes and prepares them to be pushed to a remote repository.
 git commit -m "$release_note"
 
