@@ -21,7 +21,7 @@ def gitPushToRepo(git_user_id, git_repo_id, COMMIT_MESSAGE, Github_token):
         print("added files")
         # TODO undo git changes if error
         repo.index.commit(COMMIT_MESSAGE)
-        print(git_user_id + ":" + Github_token + "@github.com/" + git_user_id + "/" + git_repo_id + ".git")
+        print(Github_token + "@github.com/" + git_user_id + "/" + git_repo_id + ".git")
         if "origin" not in repo.remotes:
             # origin = repo.create_remote('origin', repo.remotes.origin.url)
             o = repo.create_remote(name='origin', url=git_user_id + ":" + Github_token + "@github.com/" + git_user_id + "/" + git_repo_id + ".git")
