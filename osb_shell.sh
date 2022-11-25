@@ -21,7 +21,7 @@ if [ "$release_note" = "" ]; then
     release_note="Minor update"
     echo "[INFO] No command line input provided. Set \$release_note to $release_note"
 fi
-
+echo "started"
 # Initialize the local directory as a Git repository
 git init
 
