@@ -38,6 +38,7 @@ echo "ste"
 GIT_TOKEN="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"
 # Sets the new remote
 git_remote=`git remote`
+echo $git_remote
 echo "strat"
 if [ "$git_remote" = "" ]; then # git remote not defined
     echo $GIT_TOKEN . "git token"
